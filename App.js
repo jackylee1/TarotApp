@@ -17,7 +17,10 @@ const instructions = Platform.select({
     'Cmd+D or shake for dev menu',
   android: 'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
+  web: 'Web Hello You!!!', 
 });
+
+console.log("-----------------:");
 
 export default class App extends Component<{}> {
   render() {
@@ -30,7 +33,7 @@ export default class App extends Component<{}> {
           To get started, edit App.js
         </Text>
         <Text style={styles.instructions}>
-          {instructions}
+          "AAA" {instructions}
         </Text>
       </View>
     );
